@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "eucom": "https://www.eucom.mil/ontology/",
+    "mil": "https://ontology.mil/",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "GovernmentOrganization": "GovernmentOrganization",
+    "MilitaryCommand": "eucom:MilitaryCommand",
+    "CombatantCommand": "mil:CombatantCommand",
+
+    "commandId": {
+      "@id": "eucom:commandId",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "schema:name"
+    },
+    "abbreviation": {
+      "@id": "eucom:abbreviation"
+    },
+    "commandType": {
+      "@id": "mil:commandType"
+    },
+    "headquarters": {
+      "@id": "schema:location"
+    },
+    "areaOfResponsibility": {
+      "@id": "mil:areaOfResponsibility"
+    },
+    "commander": {
+      "@id": "schema:employee"
+    },
+    "subordinateCommands": {
+      "@id": "schema:subOrganization"
+    },
+    "websiteUrl": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "missionStatement": {
+      "@id": "schema:description"
+    }
+  }
+}

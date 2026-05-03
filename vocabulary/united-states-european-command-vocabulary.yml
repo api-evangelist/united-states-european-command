@@ -1,0 +1,112 @@
+vocabulary:
+  name: United States European Command Vocabulary
+  description: >-
+    Domain vocabulary for United States European Command operations, NATO
+    cooperation, security assistance, and military command structure terms.
+  version: 1.0.0
+  created: '2026-05-03'
+  modified: '2026-05-03'
+
+terms:
+  - term: AOR
+    label: Area of Responsibility
+    definition: >-
+      The defined geographic region assigned to a combatant command within which
+      it has authority to plan and execute military operations. EUCOM's AOR
+      covers Europe, Russia, and portions of North Africa and the Middle East.
+    domain: Military Operations
+
+  - term: Bilateral
+    label: Bilateral Exercise
+    definition: >-
+      A military exercise or operation conducted between the United States and
+      one partner nation. EUCOM conducts bilateral exercises with numerous
+      European partner nations to build interoperability and readiness.
+    domain: Military Operations
+
+  - term: CAC
+    label: Common Access Card
+    definition: >-
+      The U.S. Department of Defense standard identification and smart card
+      used for physical access to facilities and logical access to computer
+      networks and classified systems.
+    domain: Access Management
+
+  - term: CCMD
+    label: Combatant Command
+    definition: >-
+      A unified or specified command with a broad continuing mission under a
+      single commander, established by the President through the Secretary of
+      Defense. EUCOM is one of eleven U.S. CCMDs.
+    domain: Military Command
+
+  - term: EUCOM
+    label: United States European Command
+    definition: >-
+      One of the eleven unified combatant commands of the U.S. Department of
+      Defense, headquartered in Stuttgart, Germany. Responsible for U.S.
+      military relations and operations across Europe, Russia, and parts of
+      North Africa and the Middle East.
+    domain: Military Command
+
+  - term: FMS
+    label: Foreign Military Sales
+    definition: >-
+      A U.S. government program that enables foreign governments to purchase
+      U.S. defense articles, services, and training. EUCOM supports FMS cases
+      with European allies and partners.
+    domain: Security Cooperation
+
+  - term: IADS
+    label: Integrated Air Defense System
+    definition: >-
+      A coordinated system of air defense assets and C2 networks that provides
+      integrated protection against airborne threats. NATO operates an IADS
+      covering the EUCOM AOR.
+    domain: Air Defense
+
+  - term: MARFEUR
+    label: U.S. Marine Forces Europe and Africa
+    definition: >-
+      The Marine Corps component command of EUCOM. Provides Marine forces
+      for theater security cooperation, crisis response, and contingency operations.
+    domain: Military Command
+
+  - term: NATO
+    label: North Atlantic Treaty Organization
+    definition: >-
+      An intergovernmental military alliance of 32 North American and European
+      countries. EUCOM's commander also serves as Supreme Allied Commander
+      Europe (SACEUR) and is the senior NATO commander.
+    domain: Alliance
+
+  - term: SACEUR
+    label: Supreme Allied Commander Europe
+    definition: >-
+      The senior NATO military commander in Europe, responsible for the military
+      operations of NATO. The SACEUR position is simultaneously held by the
+      Commander of USEUCOM.
+    domain: Alliance
+
+  - term: SOFA
+    label: Status of Forces Agreement
+    definition: >-
+      An agreement between a host country and a foreign nation stationing armed
+      forces in that country. EUCOM manages SOFA relationships with numerous
+      European host nations.
+    domain: Legal
+
+  - term: Theater Security Cooperation
+    label: Theater Security Cooperation (TSC)
+    definition: >-
+      Activities that EUCOM undertakes to build and maintain relationships with
+      allies and partners, build allied and partner capacity, promote U.S.
+      interests, and contribute to security in the theater.
+    domain: Security Cooperation
+
+  - term: USAFE-AFAFRICA
+    label: U.S. Air Forces in Europe - Air Forces Africa
+    definition: >-
+      The Air Force component command of EUCOM and AFRICOM. Provides air,
+      space, and cyberspace capabilities to theater commands.
+    domain: Military Command

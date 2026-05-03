@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/united-states-european-command/main/json-schema/eucom-organization-schema.json",
+  "title": "EUCOM Organization",
+  "description": "Schema representing the organizational structure of the United States European Command and its subordinate components",
+  "type": "object",
+  "properties": {
+    "commandId": {
+      "type": "string",
+      "description": "Unique identifier for the command or component"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full official name of the command or organization"
+    },
+    "abbreviation": {
+      "type": "string",
+      "description": "Standard military abbreviation",
+      "example": "USEUCOM"
+    },
+    "commandType": {
+      "type": "string",
+      "description": "Type of military command",
+      "enum": [
+        "Unified Combatant Command",
+        "Sub-Unified Command",
+        "Service Component Command",
+        "Functional Component Command",
+        "Joint Task Force"
+      ]
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "Location of the headquarters",
+      "example": "Stuttgart, Germany"
+    },
+    "areaOfResponsibility": {
+      "type": "array",
+      "description": "Geographic areas under the command's responsibility",
+      "items": {
+        "type": "string"
+      },
+      "example": ["Europe", "Russia", "parts of North Africa", "parts of Middle East"]
+    },
+    "commander": {
+      "type": "object",
+      "description": "Current commanding officer",
+      "properties": {
+        "rank": {"type": "string"},
+        "name": {"type": "string"},
+        "service": {"type": "string"}
+      }
+    },
+    "subordinateCommands": {
+      "type": "array",
+      "description": "List of subordinate component commands",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "abbreviation": {"type": "string"},
+          "service": {"type": "string"}
+        }
+      }
+    },
+    "websiteUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official public website URL"
+    },
+    "missionStatement": {
+      "type": "string",
+      "description": "Official mission statement of the command"
+    }
+  },
+  "required": ["commandId", "name", "commandType"]
+}

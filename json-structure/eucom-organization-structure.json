@@ -1,0 +1,16 @@
+{
+  "name": "EUCOM Organization",
+  "description": "Data structure for a United States European Command organizational entity",
+  "fields": [
+    {"name": "commandId", "type": "string", "description": "Unique command identifier", "required": true},
+    {"name": "name", "type": "string", "description": "Full official name", "required": true},
+    {"name": "abbreviation", "type": "string", "description": "Military abbreviation"},
+    {"name": "commandType", "type": "string", "description": "Type of command (Unified, Service Component, etc.)"},
+    {"name": "headquarters", "type": "string", "description": "Headquarters location"},
+    {"name": "areaOfResponsibility", "type": "array", "description": "Geographic areas of responsibility"},
+    {"name": "commander", "type": "object", "description": "Commanding officer information"},
+    {"name": "subordinateCommands", "type": "array", "description": "Component commands"},
+    {"name": "websiteUrl", "type": "string", "description": "Official public website"},
+    {"name": "missionStatement", "type": "string", "description": "Official mission statement"}
+  ]
+}
