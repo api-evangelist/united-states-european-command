@@ -3,6 +3,12 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/united-states-european-command/refs/heads/main/apis.yml
 name: United States European Command
 tags:
+  - Federal-Government
+  - Military
+  - National Defense
+  - NATO
+  - European Security
+tags_raw:
   - Federal Government
   - Military
   - National Defense
